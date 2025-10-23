@@ -15,7 +15,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  Nicolour Illustration - Drawing joy from everyday life 
 logo: 'assets/images/logo.jpg' # No leading slash!
 author: Nicolour Illustration
-url: "https://nicolour.me.uk" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://nicolour.me.uk" # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: "" # the subpath of your site, e.g. /blog
 #google_analytics: UA-111111111-1
 #twitter:
@@ -33,7 +33,7 @@ defaults:
 #google_analytics: UA-69281367-1
 #disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /nicolour/
+baseurl: /nicolour
 
 # Permalinks
 #permalink: /:title
