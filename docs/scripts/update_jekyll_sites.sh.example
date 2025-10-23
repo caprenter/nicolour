@@ -1,0 +1,5 @@
+#! /bin/bash
+# Place this file on a server somewhere
+# Add a cronjob to run it regularly
+# e.g. 05 08 * * * /usr/bin/bash /home/david/update_jekyll_sites.sh
+docker run --rm -e GH_TOKEN=<secretToken> ghcr.io/supportpal/github-gh-cli  gh api   --method POST   -H "Accept: application/vnd.github+json"   -H "X-GitHub-Api-Version: 2022-11-28"   /repos/caprenter/bingley-music-town/pages/builds > jekyll_update.log

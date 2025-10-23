@@ -1,0 +1,96 @@
+# Jekyll configuration
+#markdown: redcarpet
+#highlighter: pygments
+markdown: kramdown
+highlighter: rouge
+# paginate: 5
+language: 'en-uk'
+
+# Website info
+name: "Nicolour Illustration"
+title: "Nicolour Illustration" # the name of your site, e.g. ACME Corp.
+#tagline: "Bringing together the people that care about music in our"
+email: nicolournicolourok@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+ Nicolour Illustration - Drawing joy from everyday life 
+logo: 'assets/images/logo.jpg' # No leading slash!
+author: Nicolour Illustration
+url: "https://nicolour.me.uk" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+#google_analytics: UA-111111111-1
+#twitter:
+#  username:
+#  card: summary #keep this to generate a twitter share card
+#
+# For the Gallery
+defaults:
+  - scope:
+      path: "assets/images/gallery"
+    values:
+      image: true
+
+#short_url: 'jekyllt.github.io/jasper/'
+#google_analytics: UA-69281367-1
+#disqus: username
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+#baseurl: /jasper/
+
+# Permalinks
+#permalink: /:title
+# permalink: /author/:username
+# permalink: /tag/:tag
+
+# gems and other configs
+# plugins: [jekyll-paginate]
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+
+# Settings for building master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: false
+lsi: false
+username: caprenter
+repo: nicolour
+branch: master
+#relative_source: ../jasper/
+#destination: ../jasper-pages/
+# production_url:  https://nicolour.me.uk/
+source_url:  https://github.com/caprenter/nicolour/
+
+# gems and other configs
+plugins:
+ - pagemaster
+ - jekyll-redirect-from
+
+# Jekyll collection definitions
+# Pagemaster bases its configuration on these
+#collections:
+
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
+  - node_modules
+  - .git
+  - scripts*

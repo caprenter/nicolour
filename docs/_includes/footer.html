@@ -1,0 +1,17 @@
+<div class="footer-title">
+    <h2>{{ site.name }}</h2>
+    <div class="strapline">{{ site.tagline }}</div>
+</div>
+
+<div class="footer-title">
+<div class="row align-items-center">
+    <div class="col-md-4">
+    {% capture links %}{% include links.md %}{% endcapture %}
+    {{ links | markdownify }}
+    
+</div>
+</div>
+
+<div class="copyright">
+    <p>All content &copy; the respective bands and artists &amp; Niolour Illustration unless otherwise stated. <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/privacy">Privacy Statement</a></p>
+</div>

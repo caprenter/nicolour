@@ -1,0 +1,52 @@
+services:
+  # # Behat
+  # behat:
+  #   hostname: behat
+  #   #container_name: behat
+  #   image: docksal/behat
+  #   volumes:
+  #     - ./testing:/src
+  #   # Run a built-in web server for access to HTML reports
+  #   ports:
+  #    - 8000:8000
+  #   entrypoint: "php -S 0.0.0.0:8000"
+  #   networks:
+  #       devnet: 
+  #         ipv4_address: 172.22.0.101
+
+  # selenium:
+  #   image: selenium/standalone-chrome:4.1.1-20211217
+  #   #container_name: selenium
+  #   restart: always
+  #   ports:
+  #     - 4444:4444
+  #     - 7900:7900
+  #   shm_size: 2gb
+  #   networks:
+  #       devnet: 
+  #         ipv4_address: 172.22.0.102
+
+
+  jekyll:
+      #stdin_open: true
+      #tty: true
+      image: jekyll/jekyll:3.8
+      #container_name: jekyll
+      volumes:
+          - ./docs:/srv/jekyll
+          - ./docs/vendor/bundle:/usr/local/bundle
+      ports:
+          - 4000:4000
+      command: jekyll serve
+      networks:
+        devnet: 
+          ipv4_address: 172.22.0.103
+          
+
+
+networks:
+  devnet:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.22.0.0/24"

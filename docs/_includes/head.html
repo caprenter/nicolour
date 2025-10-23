@@ -1,0 +1,46 @@
+    <link rel="canonical" href="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
+    <meta name="referrer" content="origin" />
+    <!--<link rel="next" href="{{ site.baseurl }}page2/" />-->
+    <meta property="og:site_name" content="{{ site.name }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:url" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
+    <meta property="og:image" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/images/{{ page.cover }}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:url" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
+    <meta name="twitter:image:src" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/images/{{ page.cover }}" />
+    <!-- Matomo - Analytics with no cookies-->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["disableCookies"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="https://analytics.cooperativeit.co.uk/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '10']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+      <noscript><p><img src="https://analytics.cooperativeit.co.uk/matomo.php?idsite=10&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+      <!-- End Matomo Code -->    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "{{ site.name }}",
+    "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}",
+    "url": "{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}",
+    "image": "{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/images/{{ use_image }}",
+    "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}feed.xml" />

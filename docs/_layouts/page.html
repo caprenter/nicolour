@@ -1,0 +1,39 @@
+---
+layout: default
+class: 'page-template'
+---
+<!-- < default -->
+
+<!-- This is a page template. A page outputs content just like any other post, and has all the same -->
+    <!-- attributes by default, but you can also customise it to behave differently if you prefer.  -->
+
+<!-- Everything inside the #post tags pulls data from the page -->
+<!-- #post -->
+
+<header class="main-header page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url({{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/images/{{ page.cover }}); background-position-y:0">
+
+    <div class="vertical">
+        <div class="main-header-content inner">
+           <h1 class="page-title">{{ page.title }}</h1>
+           <h2 class="page-sub-title">{% if page.sub-title %}{{ page.sub-title }}{% else %}{{ page.date | date: "%A %d %B %Y" }}{% endif %} </h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+        <!-- Everything inside the #post tags pulls data from the post -->
+
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+
+        <section class="main-page">
+            {{ content }}
+        </section>
+
+    </article>
+</main>
+<!-- /post -->
