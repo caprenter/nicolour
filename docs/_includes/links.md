@@ -3,7 +3,7 @@
 <!-- [Gallery]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/gallery )<br/> -->
 [Live Illustration]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/live-illustration)<br/>
 [Workshops]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/workshops )<br/>
-[Sketchbook]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/sketchbook )<br/>
+[Sketchbooks]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/sketchbooks )<br/>
 [Contact]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/contact )<br/>
 
 <div class="icons">

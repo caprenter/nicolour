@@ -7,5 +7,5 @@ cover: splashes/QoH.jpg #No leading slash
 navigation: true
 ---
 
-{% include gallery.md album="Rumble" %}
+{% include gallery.md album="Nicolour" %}
 
