@@ -1,7 +1,7 @@
 - name: Live Illustration
   slug: live-illustration
   color: ns_pink 
-  image: Nicolour_workshop.4.JPG
+  image: Liveillustration_Nicolour.northcliffeartsparty.jpg
   alt-text: "Working on a live illustration "
   short-description: |
     Your special day, beautifully sketched
@@ -14,16 +14,26 @@
   image: Nicolour_workshop.5.JPG
   alt-text: "Helping an artists in a workshop"
   short-description: |
-    Need and  art workshop?
+    Have a go at something unique and leave smiling
   # description: |
   #   
 
-- name: Sketchbooks
-  slug: sketchbooks
-  color: ns_yellow 
-  image: Nicolour_workshops.1.JPG
+- name: Design
+  slug: design
+  color: ns_green 
+  image: design_Nicolour.JPG
   alt-text: "Discussing my sketchbook with friends"
   short-description: |
     A peek inside my creative world
+  # description: |
+  #  
+
+- name: Commissions
+  slug: design
+  color: ns_orange 
+  image: commissions_Nicolour.jpg
+  alt-text: "Illustration of a girl with her favourite toy"
+  short-description: |
+    Illustrations as Unique as Your Memories
   # description: |
   #  

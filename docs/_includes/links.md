@@ -2,8 +2,9 @@
 [About]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/#about)<br/>
 <!-- [Gallery]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/gallery )<br/> -->
 [Live Illustration]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/live-illustration)<br/>
+[Commissions]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/commissions )<br/>
 [Workshops]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/workshops )<br/>
-[Sketchbooks]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/sketchbooks )<br/>
+[Design]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/design )<br/>
 [Contact]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/contact )<br/>
 
 <div class="icons">

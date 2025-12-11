@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Niolour Illustration
+title: Nicolour Illustration
 class: 'home-template'
 navigation: True
 #logo: /assets/images/splashes/Nicolour_workshop.2.JPG

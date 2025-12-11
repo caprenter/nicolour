@@ -4,7 +4,7 @@
 
 <div class="main">
   <div class="blog">     
-  <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 d-flex align-items-stretch blog">
+  <div class="row row-cols-1 row-cols-lg-2 row-cols-md-2 row-cols-sm-2 d-flex align-items-stretch blog">
   {% for service in site.data.services %}   
     {% include card.md %}
   {% endfor %}
