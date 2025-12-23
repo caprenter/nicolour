@@ -14,3 +14,5 @@ Whether it’s a wedding, birthday party, or community gathering, I attend your 
 Alternatively, send me your photos and I’ll compile them into a one-off illustration to commemorate your special day or event. A joyful, personal way to remember the people, places, and laughter that made your day so special.
 
 There are so many options for this: wedding guests, party guests, members of a board meeting. I can illustrate them beforehand to create memorable table decorations or favours to take home and treasure, or they can be illustrated afterwards to complete the story of the day.
+
+{% include gallery.md album="Liveillustration" %}

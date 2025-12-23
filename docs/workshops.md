@@ -9,3 +9,5 @@ navigation: true
 I can be found at The Crafthouse in Bingley, where I run workshops based predominantly in drawing, ink, and watercolour. 
 
 This is a wonderful venue and the food is glorious - a great mindful and calming time guaranteed.
+
+{% include gallery.md album="workshop" %}

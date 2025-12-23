@@ -6,7 +6,7 @@
         {% assign festival_array = festival_array | push: image %}
     {% endif %}
   {% endfor %}
-<div class="gallery-credit"><p>Thanks to <a href="https://bingleycameraclub.co.uk/">Bingley Camera Club</a> for the photos.</p></div>
+
 <div class="gallery">
 {% for image in festival_array %}
 {% assign indexmod3 = forloop.index | modulo: 3 %}
