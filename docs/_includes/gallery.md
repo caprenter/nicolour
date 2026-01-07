@@ -11,7 +11,7 @@
 {% for image in festival_array %}
 {% assign indexmod3 = forloop.index | modulo: 3 %}
 {% if indexmod3 == 1 %}<div class="row">{% endif %}
-{% assign altcaptitle = image.basename | replace: "_"," " | append: " - Photos by Bingley Camera Club" %}
+{% assign altcaptitle = image.basename | replace: "_"," " %}
 <a href="{{site.baseurl}}{{image.path}}" data-toggle="lightbox" data-gallery="example-gallery" data-caption="{{ altcaptitle }}" class="col-sm-4"><img src="{{site.baseurl}}{{image.path | replace: 'gallery','thumbnails'}}" alt="{{ altcaptitle }}" title="{{ altcaptitle }}" class="img-fluid" /></a>
 {% if forloop.last %}</div>{% elsif indexmod3 == 0 %}</div>{% endif %}
 {% endfor %}

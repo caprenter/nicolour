@@ -4,7 +4,7 @@ layout: page
 cover: splashes/Nicolour_workshop.5.JPG #no leading slash
 navigation: true
 ---
-# Have a Go at Something Unique and Leave Smiling
+# Have a go at something unique and leave smiling
 
 I can be found at The Crafthouse in Bingley, where I run workshops based predominantly in drawing, ink, and watercolour. 
 

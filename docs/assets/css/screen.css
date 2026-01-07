@@ -2269,11 +2269,11 @@ figcaption {
 
 
 /* ==========================================================================
-   12. Media Queries - Smaller than 900px
+   12. Media Queries - Smaller than 1070px
    ========================================================================== */
  
  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1070px) {
     .column {
         width: 100%;
     }
@@ -2282,7 +2282,7 @@ figcaption {
  
  
    /* When the screen is less than 900 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
- @media screen and (max-width: 900px) {
+ @media screen and (max-width: 1070px) {
     .menu-items a, .menu-items div.menu-items {display: none;}
     .menu-items a.icon {
       float: right;
@@ -2295,7 +2295,7 @@ figcaption {
     }*/
   }
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1070px) {
     .menu-items.responsive,  .menu-items.responsive div.menu-items {position: relative;}
     .menu-items.responsive a.icon {
       position: absolute;
@@ -2318,7 +2318,7 @@ figcaption {
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1070px) {
 
     blockquote {
         margin-left: 0;
