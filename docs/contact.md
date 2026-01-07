@@ -21,11 +21,11 @@ Contact me via email
 
 ## My Socials:
 
-<i class="fa-brands fa-instagram"></i> Instagram: <a href="https://www.instagram.com/nicolourok/" title="Find us on Instagram" style="font-weight:bold">@nicolourok</a><br>
+<i class="fa-brands fa-instagram"></i> Instagram: <a href="https://www.instagram.com/nicolourok/" title="Find us on Instagram" class="fw-bold">@nicolourok</a><br>
 
-<i class="fa-brands fa-instagram"></i> Instagram Teaching and Workshops: <a href="https://www.instagram.com/nicolour_teaches/" title="Find us on Instagram" style="font-weight:bold">@nicolour_teaches</a><br>
+<i class="fa-brands fa-instagram"></i> Instagram Teaching and Workshops: <a href="https://www.instagram.com/nicolour_teaches/" title="Find us on Instagram" class="fw-bold">@nicolour_teaches</a><br>
 
-<i class="fa-brands fa-facebook"></i> Facebook: <a href="https://www.facebook.com/nicolourok" title="Find us on Facebook" style="font-weight:bold">@nicolourok</a><br>
+<i class="fa-brands fa-facebook"></i> Facebook: <a href="https://www.facebook.com/nicolourok" title="Find us on Facebook" class="fw-bold">@nicolourok</a><br>
 
 <!-- <div class="artist icons">
     <ul class="list-inline">
