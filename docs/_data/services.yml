@@ -30,7 +30,7 @@
   #  
 
 - name: Commissions
-  slug: design
+  slug: commissions
   color: ns_orange 
   image: commissions_Nicolour.jpg
   alt-text: "Illustration of a girl with her favourite toy"
