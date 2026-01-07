@@ -21,13 +21,17 @@ Contact me via email
 
 ## My Socials:
 
-@nicolourok
+<i class="fa-brands fa-instagram"></i> Instagram: <a href="https://www.instagram.com/nicolourok/" title="Find us on Instagram" style="font-weight:bold">@nicolourok</a><br>
 
-<div class="artist icons">
+<i class="fa-brands fa-instagram"></i> Instagram Teaching and Workshops: <a href="https://www.instagram.com/nicolour_teaches/" title="Find us on Instagram" style="font-weight:bold">@nicolour_teaches</a><br>
+
+<i class="fa-brands fa-facebook"></i> Facebook: <a href="https://www.facebook.com/nicolourok" title="Find us on Facebook" style="font-weight:bold">@nicolourok</a><br>
+
+<!-- <div class="artist icons">
     <ul class="list-inline">
-        <li class="list-inline-item"><a href="https://www.facebook.com/nicola.storr.39" title="Find us on Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="list-inline-item"><a href="https://www.facebook.com/nicolourok" title="Find us on Facebook"><i class="fa-brands fa-facebook"></i></a></li>
         <li class="list-inline-item"><a href="https://www.instagram.com/nicolourok/" title="Find us on Instagram"><i class="fa-brands fa-instagram"></i></a></li>
     </ul>
-</div>
+</div> -->
 
 
