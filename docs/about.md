@@ -14,7 +14,7 @@ With over 25 years of experience as a professional illustrator, I’ve had the j
 
 For the past seven years, I’ve also taught art and illustration to children aged 5 to 16 at an arts charity and across the Bradford district as part of the [Hockney DRAW initiative](https://bradford2025.co.uk/programme/draw/) - where I have led workshops for ages 3 to 103!
 
-I’ve also been thrilled to work with the [Big Draw](https://www.thebigdraw.org/about-us/launch-2025) on their magnificent opening event at East Riddlesden Hall.
+I’ve also been thrilled to work with the [Big Draw](https://www.thebigdraw.org/) on their magnificent opening event at East Riddlesden Hall.
 
 
 Always with a smile (and a sketchbook) at hand, I love helping others find joy and peace through drawing and art.
